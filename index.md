@@ -6,7 +6,7 @@ permalink: /
 
 # Support
 
-**New Lines: Color Match** is a color-lines puzzle. Move a ball, line up five or more of the same color, and clear the board, across dozens of levels that grow, add colors and, later on, put you on a clock. Free to play on iPhone and Android.
+**New Lines: Color Match** is a color-lines puzzle. Move a ball, line up four or more of the same color (five on the later levels), and clear the board, across dozens of levels that grow, add colors and, later on, put you on a clock. Free to play on iPhone and Android.
 
 [App Store](https://apps.apple.com/app/id1616641155) · [Google Play](https://play.google.com/store/apps/details?id=com.tb.norlines)
 
