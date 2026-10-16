@@ -1,164 +1,94 @@
 ---
-title: Privacy Policy — New Lines
+layout: default
+title: "New Lines: Color Match Privacy Policy"
+permalink: /privacy
 ---
 
-# Privacy Policy — New Lines
+# Privacy Policy
 
-**Effective date: September 11, 2026**
+**New Lines: Color Match**
 
-New Lines (“the App”), listed on the App Store as “New Lines 22”, is developed
-by Tigran Barseghyan (“we”, “us”). This policy explains what information the App
-handles and how. The short version: **the App has no accounts and asks for no
-personal details.** It is free and supported by ads, and the advertising
-service does collect device information to show and measure them; that is
-described in section 2. Where the iPhone and Android versions differ, the
-difference is called out.
+Effective date: 16 October 2026
+Developer: Tigran Barseghyan
+Contact: **developer.barseghyan@gmail.com**
+
+---
+
+New Lines: Color Match ("the App") is developed by Tigran Barseghyan ("we", "us"). This policy explains what information the App handles and how, on both iPhone and Android. Where the two versions differ, the difference is called out.
+
+The short version: **the App has no accounts and asks for no personal details.** It is free and supported by ads, and the advertising service collects device information to show and measure them, as described in section 2.
 
 ## 1. No account, no personal details
 
-There is no sign-up, login, password, email field or profile. We never ask for
-your name, address, phone number or date of birth, and we have no database in
-which such a record could exist.
+There is no sign-up, login, password, email field or profile. We never ask for your name, address, phone number or date of birth, and we have no database in which such a record could exist.
 
 ## 2. Advertising
 
-The App shows ads served by **Google AdMob**: a banner beneath the board, an
-occasional full-screen ad between levels, and a rewarded video that you choose
-to watch in exchange for coins. Buying **Remove Ads** turns all three off; no
-ad of any kind is requested after that.
+The App shows ads served by **Google AdMob**: a banner beneath the board, an occasional full-screen ad between levels, and a rewarded video that you choose to watch in exchange for coins. Buying **Remove Ads** turns all three off; no ad of any kind is requested after that.
 
-To serve and measure ads, the AdMob SDK collects **device and usage information,
-not identity**: your device’s advertising identifier (the IDFA on iPhone, the
-Advertising ID on Android), IP address — from which Google derives a coarse
-location, such as your country or city — device model and operating system
-version, and how you interact with the ads shown (impressions, taps, and
-whether a rewarded video was completed). Google may use this to personalise the
-ads you see, subject to the choices below. Google’s handling is governed by the
-[Google Privacy Policy](https://policies.google.com/privacy) and described in
-[How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
+To serve and measure ads, the AdMob SDK collects **device and usage information, not identity**: your device's advertising identifier (the IDFA on iPhone, the Advertising ID on Android), IP address (from which Google derives a coarse location, such as your country or city), device model and operating system version, and how you interact with the ads shown (impressions, taps, and whether a rewarded video was completed). Google may use this to personalize the ads you see, subject to the choices below. Google's handling is governed by the [Google Privacy Policy](https://policies.google.com/privacy) and described in [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
 
-**Your choices.**
+**Your choices**
 
-  - In the European Economic Area and the United Kingdom, a consent form
-(Google’s User Messaging Platform) appears before any ad is requested. You can
-decline personalised advertising there and still use the App; ads then show
-without personalisation.
+- In the European Economic Area, the United Kingdom and Switzerland, a consent form (Google's User Messaging Platform) appears before any ad is requested. You can decline personalized advertising there and still use the App; ads then show without personalization. You can change or withdraw your choice at any time in the App under **Settings → Privacy Settings**.
+- On iPhone, the App asks once, through Apple's App Tracking Transparency prompt, whether it may use your advertising identifier. Declining, or turning off **Settings → Privacy & Security → Tracking**, limits ads to non-personalized ones.
+- On Android, **Settings → Google → Ads** (or **Settings → Privacy → Ads**, depending on the device) lets you delete your Advertising ID or opt out of ad personalization.
+- Buying Remove Ads stops every ad from being requested at all.
 
-  - On iPhone, the App asks once, through Apple’s App Tracking Transparency
-prompt, whether it may use your advertising identifier. Declining, or turning
-off **Settings → Privacy & Security → Tracking**, limits ads to
-non-personalised ones.
-
-  - On Android, **Settings → Google → Ads** lets you delete your Advertising ID
-or opt out of ad personalisation.
-
-  - Buying Remove Ads stops every ad from being requested at all.
-
-The consent you give on the form is stored on your device by the SDK.
-Uninstalling the App clears it, and the form is shown again on the next
-install where it is required.
+The choice you make on the consent form is stored on your device by the SDK.
 
 ## 3. Analytics and crash reporting
 
-**On iPhone**, the App uses **Google Analytics for Firebase** to understand how
-the game is played — which screens are opened, whether levels are completed,
-whether a purchase or an ad load succeeded — and **Firebase Crashlytics** to
-receive a report when the App crashes.
+**On iPhone**, the App uses **Google Analytics for Firebase** to understand how the game is played (which screens are opened, whether levels are completed, whether a purchase or an ad load succeeded) and **Firebase Crashlytics** to receive a report when the App crashes.
 
-What this collects is usage and device information: an app-instance identifier
-generated by Firebase, device model, operating system version, coarse region,
-the in-app events listed above, and for a crash, the state of the App at the
-moment it failed. It does **not** include your name, email, contacts, photos or
-precise location. We use it only to improve the App, and we do not sell it or
-share it for advertising. Deleting the App resets the app-instance identifier
-and ends the collection.
+This collects usage and device information: an app-instance identifier generated by Firebase, device model, operating system version, coarse region, the in-app events listed above, and for a crash, the state of the App at the moment it failed. It does **not** include your name, email, contacts, photos or precise location. We use it only to improve the App, and we do not sell it or share it for advertising. Deleting the App resets the app-instance identifier.
 
-**On Android**, the App currently sends **no analytics and no crash reports**.
-The same events are recorded only in the device’s local debugging log, which
-does not leave the device.
+**On Android**, the App currently sends **no analytics and no crash reports**. The same events are written only to the device's local debugging log, which does not leave the device.
 
 ## 4. Purchases
 
-The App offers **one-time purchases only**: coin packs, and Remove Ads. There
-are no subscriptions.
+The App offers **one-time purchases only**: coin packs, and Remove Ads. There are no subscriptions.
 
-Payment is handled **entirely by Apple or Google** through your App Store or
-Google Play account. We never receive or store your name, card details, billing
-address, Apple ID or Google account. What the App receives from the store is a
-confirmation that a purchase completed and which product it was, so it can add
-the coins or turn off the ads. Apple’s and Google’s handling of purchase data is
-governed by [Apple’s Privacy Policy](https://www.apple.com/legal/privacy/) and
-the [Google Privacy Policy](https://policies.google.com/privacy).
+Payment is handled **entirely by Apple or Google** through your App Store or Google Play account. We never receive or store your name, card details, billing address, Apple Account or Google account. What the App receives from the store is a confirmation that a purchase completed and which product it was, so it can add the coins or turn off the ads. Apple's and Google's handling of purchase data is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) and the [Google Privacy Policy](https://policies.google.com/privacy).
 
-## 5. Progress sync (iPhone only)
+## 5. Progress and backup
 
-On iPhone, your level progress, star ratings and coin balance are also stored
-in **iCloud Key-Value Storage**, so they follow you to other devices signed in
-to the same Apple Account. This data is held in your own iCloud account under
-Apple’s terms; we do not have access to it, and there is no server of ours
-involved. Turning off iCloud Drive for the App in iOS Settings stops the sync.
+**On iPhone**, your level progress, star ratings and coin balance are also stored in **iCloud Key-Value Storage**, so they follow you to other devices signed in to the same Apple Account. This data is held in your own iCloud account under Apple's terms; we have no access to it, and no server of ours is involved. Turning off iCloud for the App in iOS Settings stops the sync.
 
-On Android, progress is stored on the device only and is not synced anywhere.
+**On Android**, progress is stored on the device and is not sent to us. If Android's backup to your Google account is turned on, the operating system may include the App's data in that backup and restore it on a new device. That backup is held in your Google account under Google's terms; we have no access to it.
 
 ## 6. Notifications (iPhone only)
 
-If you leave a level unfinished, the App may schedule **one local reminder**,
-delivered two days later, to come back to it. This is created by the App on
-your device — there is no push service and nothing is sent to us. iOS asks for
-permission before any reminder can be shown, and you can withdraw it at any
-time in **Settings → Notifications**. The Android version sends no
-notifications.
+If you leave a level unfinished, the App may schedule **one local reminder**, delivered two days later, to come back to it. It is created by the App on your device; there is no push service and nothing is sent to us. iOS asks for permission before any reminder can be shown, and you can withdraw it at any time in **Settings → Notifications**. The Android version sends no notifications.
 
 ## 7. Data stored on your device
 
-The App stores on your device only: which levels you have completed and their
-ratings, your coin balance, whether Remove Ads has been bought, your sound and
-music volume, whether the tutorial and first-time hints have been shown, and
-your advertising consent choice. None of this identifies you, and all of it is
-removed when you delete the App (on iPhone, a copy of the progress and coins
-remains in your iCloud account, as described in section 5).
+The App stores on your device only: which levels you have completed and their ratings, your coin balance, whether Remove Ads has been bought, your sound and music volume, whether the tutorial and first-time hints have been shown, and your advertising consent choice. None of this identifies you, and all of it is removed when you delete the App, except copies held in your own iCloud or Google backup as described in section 5.
 
 ## 8. Sharing and rating
 
-The **Share** button hands a short message and a link to the App’s store page to
-whichever app you choose — Messages, Mail, and so on. The **Rate Us** button
-opens the App Store or Google Play. Nothing is sent to us in either case.
+The **Share** button hands a short message and a link to the App's store page to whichever app you choose (Messages, Mail, and so on). The **Rate Us** button opens the App Store or Google Play. Nothing is sent to us in either case.
 
 ## 9. What we do not do
 
-  - No user accounts or registration.
-
-  - No location permission is requested, and the App never receives your
-precise position. (The advertising service derives a coarse location from your
-IP address, as described in section 2.)
-
-  - No access to your contacts, photos, camera, microphone or health data.
-
-  - No selling, renting or sharing of data, other than what the advertising and
-analytics services described above collect for themselves.
+- No user accounts or registration.
+- No location permission is requested, and the App never receives your precise position. (The advertising service derives a coarse location from your IP address, as described in section 2.)
+- No access to your contacts, photos, camera, microphone or health data.
+- No selling, renting or sharing of data, other than what the advertising and analytics services described above collect for themselves.
 
 ## 10. Children
 
-The App is rated 4+ / Everyone and contains no content unsuitable for children,
-but it is not directed at children under 13, and its advertising is not
-configured for an audience of children. We do not knowingly collect personal
-data from anyone. If you are a parent and believe a child has used the App in a
-way that concerns you, contact us and we will help.
+The App is rated 4+ / Everyone and contains no content unsuitable for children, but it is not directed at children under 13, and its advertising is not configured for an audience of children. We do not knowingly collect personal data from anyone. If you are a parent and believe a child has used the App in a way that concerns you, contact us and we will help.
 
 ## 11. Your rights
 
-We hold no personal data about you, so there is no account to access, correct,
-export or delete. Everything the App keeps is on your device (and, on iPhone, in
-your own iCloud account) and is removed by deleting the App. You can reset or
-delete your advertising identifier in your device’s settings at any time, and
-purchases remain tied to your Apple Account or Google account and can be
-restored.
+We hold no personal data about you, so there is no account to access, correct, export or delete. Everything the App keeps is on your device (and in your own iCloud or Google backup, if enabled) and is removed by deleting the App and its backup. You can change your ad consent in the App, reset or delete your advertising identifier in your device settings at any time, and restore Remove Ads on any device signed in to the same store account.
+
+For data collected by Google through AdMob or Firebase, you can also use the controls described in the [Google Privacy Policy](https://policies.google.com/privacy).
 
 ## 12. Changes to this policy
 
-If the App’s data practices change — for example, if analytics are added to
-the Android version — we will update this policy and the effective date above
-before the change takes effect.
+If the App's data practices change, for example if analytics are added to the Android version, we will update this policy and the effective date above before the change takes effect.
 
 ## 13. Contact
 

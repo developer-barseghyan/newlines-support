@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="{{ site.description | escape }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffe3d2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1214" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/icon.png">
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/icon.png">
+<style>
+:root{
+  --peach:#ffe3d2;
+  --blush:#ffd6e3;
+  --haze:#fff6ec;
+  --card:#fffdf9;
+  --text:#33241e;
+  --muted:#8a776e;
+  --rule:#f3e6da;
+  --accent:#ce2b5b;
+  --link:#ce2b5b;
+  --link-hover:#a81e48;
+  --tile:#fff1f5;
+  --chip:rgba(255,255,255,.66);
+  --chip-on:#ffffff;
+  --shadow:0 1px 2px rgba(107,23,48,.05), 0 10px 30px rgba(107,23,48,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --peach:#2a1a1a;
+    --blush:#2c1722;
+    --haze:#1a1214;
+    --card:#241a1c;
+    --text:#f5ece8;
+    --muted:#b3a29a;
+    --rule:#3a2c2e;
+    --accent:#ff7fa6;
+    --link:#ff8fb2;
+    --link-hover:#ffb3ca;
+    --tile:#3a2630;
+    --chip:rgba(255,255,255,.06);
+    --chip-on:#33242a;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.3);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--text);
+  background-color:var(--haze);
+  background-image:
+    radial-gradient(115% 55% at 100% 0%, var(--blush) 0%, transparent 62%),
+    linear-gradient(172deg, var(--peach) 0%, var(--haze) 46%, var(--haze) 100%);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.wrap{max-width:46rem;margin:0 auto;padding:0 18px}
+
+header.bar{padding:30px 0 22px;text-align:center}
+header.bar .icon{
+  display:block;
+  width:64px;
+  height:64px;
+  margin:0 auto 12px;
+  border-radius:15px;
+  box-shadow:0 1px 2px rgba(107,23,48,.08), 0 6px 18px rgba(107,23,48,.14);
+}
+header.bar .app{
+  margin:0;
+  font-size:1.35rem;
+  font-weight:700;
+  letter-spacing:-0.02em;
+}
+header.bar .sub{
+  margin:3px 0 0;
+  color:var(--muted);
+  font-size:.88rem;
+  letter-spacing:.01em;
+}
+.balls{
+  display:flex;
+  justify-content:center;
+  gap:6px;
+  margin:10px 0 0;
+}
+.balls span{
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  box-shadow:inset 0 -1px 2px rgba(0,0,0,.18);
+}
+
+nav{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:18px;
+}
+nav a{
+  display:inline-block;
+  padding:7px 16px;
+  border-radius:999px;
+  background:var(--chip);
+  color:var(--muted);
+  text-decoration:none;
+  font-size:.9rem;
+  font-weight:500;
+  transition:color .15s, background .15s;
+}
+nav a:hover{color:var(--link)}
+nav a.here{
+  background:var(--chip-on);
+  color:var(--accent);
+  font-weight:600;
+  box-shadow:0 1px 2px rgba(107,23,48,.07);
+}
+
+main.card{
+  background:var(--card);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+  padding:38px 34px 34px;
+  margin-bottom:26px;
+}
+
+main.card > :first-child{margin-top:0}
+h1{font-size:1.8rem;line-height:1.25;letter-spacing:-0.025em;margin:0 0 .65em;font-weight:700}
+h2{font-size:1.24rem;margin:2.1em 0 .5em;letter-spacing:-0.015em;font-weight:650}
+h3{font-size:1.03rem;margin:1.9em 0 .4em;font-weight:650}
+p,li{overflow-wrap:break-word}
+li{margin:.3em 0}
+a{color:var(--link);text-decoration:underline;text-underline-offset:2px}
+a:hover{color:var(--link-hover)}
+strong{font-weight:650}
+hr{border:0;border-top:1px solid var(--rule);margin:2.3em 0}
+
+code{
+  background:var(--tile);
+  color:var(--text);
+  padding:.14em .4em;
+  border-radius:5px;
+  font-size:.88em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+
+blockquote{
+  margin:1.3em 0;
+  padding:.6em 0 .6em 1.1em;
+  border-left:3px solid var(--accent);
+  color:var(--muted);
+}
+blockquote p{margin:.3em 0}
+
+footer{
+  padding:4px 0 54px;
+  color:var(--muted);
+  font-size:.86rem;
+  text-align:center;
+}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:var(--link);text-decoration:underline}
+footer p{margin:.3em 0}
+
+@media (max-width:560px){
+  .wrap{padding:0 14px}
+  header.bar{padding:22px 0 16px}
+  main.card{padding:26px 20px 24px;border-radius:20px}
+  h1{font-size:1.5rem}
+  h2{font-size:1.14rem}
+  nav a{padding:6px 13px;font-size:.86rem}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="bar">
+    <img class="icon" src="{{ site.baseurl }}/assets/icon.png" alt="" width="64" height="64">
+    <p class="app">New Lines: Color Match</p>
+    <p class="sub">Support, privacy and terms</p>
+    <div class="balls" aria-hidden="true">
+      <span style="background:#ff5d8f"></span>
+      <span style="background:#ff8b5c"></span>
+      <span style="background:#ffc93c"></span>
+      <span style="background:#43be7e"></span>
+      <span style="background:#3b9eff"></span>
+    </div>
+    <nav>
+      <a href="{{ site.baseurl }}/"{% if page.url == "/" %} class="here"{% endif %}>Support</a>
+      <a href="{{ site.baseurl }}/privacy"{% if page.url contains "privacy" %} class="here"{% endif %}>Privacy</a>
+      <a href="{{ site.baseurl }}/terms"{% if page.url contains "terms" %} class="here"{% endif %}>Terms</a>
+    </nav>
+  </header>
+
+  <main class="card">
+{{ content }}
+  </main>
+
+  <footer>
+    <p><a href="mailto:developer.barseghyan@gmail.com">developer.barseghyan@gmail.com</a></p>
+    <p>&copy; {{ site.time | date: "%Y" }} Tigran Barseghyan</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
